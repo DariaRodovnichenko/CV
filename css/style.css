@@ -28,7 +28,7 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin: 0 0 8 0;
+  margin: 0;
 }
 
 /* About Me */
@@ -67,8 +67,7 @@ body {
 /* Projects */
 
 .project-item {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
@@ -78,6 +77,10 @@ body {
 .project-list {
   padding: 0;
   margin: 0;
+}
+
+.project-item:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .projects-container {
@@ -98,6 +101,14 @@ body {
   font-size: 14px;
   line-height: 24px;
   text-decoration-line: underline;
+  color: #595959;
+}
+
+.project-github-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: #005fff;
 }
 
