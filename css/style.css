@@ -15,6 +15,8 @@ body {
 }
 
 a {
+  font-family: var(--font-family);
+
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -66,20 +68,12 @@ a {
 .my-summary {
   margin-top: 20px;
   background-color: #b1dcff1f;
-
+  text-align: justify;
   border-color: navy;
   border-radius: 5px;
   font-size: var(--font-size-small);
   line-height: 1.6;
   color: var(--primary-color);
-}
-
-.my-descr {
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--font-size-small);
-  line-height: 24px;
-  color: #595959;
 }
 
 .about-me-container {
@@ -239,7 +233,7 @@ a {
 .tech-skills-container,
 .soft-skills-container,
 .languages-container {
-  margin-top: 36px;
+  /* margin-top: 36px; */
   margin-left: 24px;
 }
 
