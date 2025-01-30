@@ -42,7 +42,7 @@ a {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 /* About Me */
@@ -195,7 +195,6 @@ a {
   line-height: 24px;
   color: #161d2a;
   margin: 16px 8px 16px 0;
-
 }
 
 .contacts-link:hover {
