@@ -188,7 +188,7 @@ a {
 
 /* Contacts */
 
-.contacts-type {
+.contacts-item {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -197,29 +197,15 @@ a {
   margin-right: 8px;
 }
 
-.contacts-item {
-  margin: 0;
-}
-
-.contacts-number:hover,
-.contacts-email:hover {
+.contacts-link:hover {
   color: #6d9bf5;
 }
 
-.contacts-number:focus,
-.contacts-email:focus {
+.contacts-link:focus {
   color: #ff00a6;
 }
 
-.contacts-number {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #161d2a;
-}
-
-.contacts-email {
+.contacts-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
