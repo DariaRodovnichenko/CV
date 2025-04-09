@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,362 +11,89 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>My resume</title>
+    <title>Daria Rodovnichenko - Work Experience</title>
+    
   </head>
+
   <body>
-    <!-- Wrapper -->
-    <div class="wrapper">
+    
+    <!-- Main Content Wrapper -->
+    <section class="content-with-sidebar">
+     
+      <!-- Language Selector -->
+    <nav id="language-selector" aria-label="Language Selector">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('fr')">Français</button>
+    </nav>
+     
       <!-- Main Content -->
-      <main class="main-content">
+      <div class="main-content">
         <!-- About Me -->
-        <section class="about-me-container">
-          <h1 class="my-name">Daria Rodovnichenko</h1>
-          <h2 class="my-profession">Développeur Front-End Junior</h2>
-          <p class="my-summary">
-            Développeur Front-End Junior avec une expérience pratique dans la
-            création d'applications web réactives et une solide maîtrise des
-            technologies modernes, des outils et des bonnes pratiques de
-            développement. Actuellement, j'approfondis mon expertise à travers
-            un programme de développement JavaScript incluant le projet
-            personnel. Désireuse d'apporter un mélange de compétences techniques
-            et orientées client au sein d'une équipe dynamique.
+        <div class="about-me-container" data-key="about-me">
+          <h1 data-key="name" class="my-name">Daria Rodovnichenko</h1>
+          <h2 data-key="profession" class="my-profession">
+            Professionnelle Administrative | Support RH
+          </h2>
+          <p data-key="summary" class="my-summary">
+            Professionnelle administrative expérimentée...
           </p>
-        </section>
-
-        <!-- <p class="contacts-item">
-            <span class="contacts-type"></span>
-            <a
-              href="https://github.com/DariaRodovnichenko"
-              class="contacts-email"
-              >GitHub</a
-            >
-          </p> -->
-
-        <!-- My Projects -->
-        <section class="projects-container">
-          <h3>Projets</h3>
-          <ul class="project-list">
-            <li class="project-item">
-              <a
-                href="https://github.com/DariaRodovnichenko/ssd-ng_ts"
-                class="project-item-link"
-                >Développeur complet
-                <span>https://dariarodovnichenko.github.io/ssd-ng_ts/</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://github.com/DariaRodovnichenko/crf-annex"
-                class="project-item-link"
-                >Développeur complet
-                <span>https://dariarodovnichenko.github.io/crf-annex/</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://github.com/DariaRodovnichenko/coffee-recipe-finder"
-                class="project-item-link"
-                >Développeur complet
-                <span
-                  >https://dariarodovnichenko.github.io/coffee-recipe-finder/</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://avk9.github.io/water_reacT/welcome"
-                class="project-item-link"
-                >Développeur backend
-                <span>https://avk9.github.io/water_reacT/welcome</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://dariarodovnichenko.github.io/goit-react-hw-05-movies/"
-                class="project-item-link"
-                >Développeur complet
-                <span
-                  >https://dariarodovnichenko.github.io/goit-react-hw-05-movies/</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://yurchykyur.github.io/project-stephen-js/"
-                class="project-item-link"
-                >Développeur modales
-                <span>https://yurchykyur.github.io/project-stephen-js/</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                href="https://kilsor.github.io/team-project/"
-                class="project-item-link"
-                >Scrum master / Développeur header
-                <span>https://kilsor.github.io/team-project/</span></a
-              >
-            </li>
+          <ul data-key="skills" class="main-skills">
+            <li>Gestion des opérations quotidiennes</li>
+            <!-- Other skills will be dynamically loaded -->
           </ul>
-        </section>
+        </div>
 
         <!-- Work Experience -->
-        <section class="work-experience-container">
-          <h3 class="main-content-title">Expérience</h3>
+        <div class="work-experience-container" data-key="work-experience">
+          <h3 class="main-content-title">Expérience Professionnelle</h3>
+          <!-- Dynamic work experience items will populate here -->
+        </div>
+      </div>
 
-          <!-- Company 1 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barista
-              <span class="work-experience-company">MAME Romandie GmbH</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2023 - Août 2024 | Genève, Suisse
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Assistance aux clients dans la selection des différents cafés,
-                contribuant à améliorer leur experience globale.
-              </li>
-              <li class="work-duties">
-                Gestion des opérations quotidiennes, incluant le suivi des coûts
-                et le contrôle de qualité du service client.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 2 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Propriétaire & Chef Barista
-              <span class="work-experience-company">Industrial Coffee</span>
-            </h4>
-            <p class="work-period">Juillet 2020 - Mai 2023| Kyiv, Ukraine</p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Gestion complète de l'établissement, y compris la planification
-                des horaires, la gestion des stocks et la collaboration avec les
-                fournisseurs.
-              </li>
-              <li class="work-duties">
-                Optimisation des processus pour accroître la rentabilité de 10%
-                la première année.
-              </li>
-              <li class="work-duties">
-                Formation et intégration des membres de l'équipe pour maintenir
-                des standards élevés deservice et de performance.
-              </li>
-              <li class="work-duties">
-                Responsabilité directe de la stratégie d'optimisation des
-                processus, garantissant un flux de travail efficace et une
-                amélioration continue de la rentabilité de l'entreprise.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 3 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barista
-              <span class="work-experience-company">Filomena SA</span>
-            </h4>
-            <p class="work-period">Juillet 2022 - Mars 2023 | Genève, Suisse</p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Expérience directe avec les clients, assurant un service rapide
-                et attentionné, en conformité avec les standards de qualité.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 4 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Responsable des ventes | Barista
-              <span class="work-experience-company">Dim Kavy</span>
-            </h4>
-            <p class="work-period">
-              Avril 2017 - Decembre 2019 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Assurance de la gestion quotidienne de l'équipe et des
-                opérations dans un environnement à haute intensité.
-              </li>
-              <li class="work-duties">
-                Formation du personnel aux compétences de service et de gestion
-                de point de vente.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 5 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barman-Administrator
-              <span class="work-experience-company">Camden Coffee Shop</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2016 - Avril 2017 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Gestion de toutes les tâches administratives des opérations
-                quotidiennes, développant la capacité de gérer efficacement
-                plusieurs priorités.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 6 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Responsable Marketing Regional
-              <span class="work-experience-company">S Group</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2015 - Avril 2016 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Recueillir et analyser les données marketing sur les produits et
-                articles de l'entreprise.
-              </li>
-              <li class="work-duties">
-                Élaborer et maintenir des tableaux comparatifs des ventes de
-                marchandises par points de distribution.
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-
-      <!-- Side Bar -->
+      <!-- Sidebar -->
       <aside class="sidebar">
         <img
           src="./img/photo1.jpg"
-          alt="My Photo"
+          alt="Daria Rodovnichenko's Photo"
           width="370px"
           class="my-photo"
         />
 
-        <!-- Info -->
-        <!-- <div class="info-container">
-          <p>Born: 28.06.1993</p>
-          <p>Nationality: Ukraine</p>
-          <p>Residence Permit: S</p>
-        </div> -->
-
         <!-- Contacts -->
-        <section class="contacts-container">
-          <h3>Contacts</h3>
-          <p class="contacts-item">
-            <a href="tel:+41767028665" class="contacts-link"
-              >+41 76 702 86 65</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a href="mailto:daria.rodovnichenko@gmail.com" class="contacts-link"
-              >daria.rodovnichenko@gmail.com</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a
-              href="https://github.com/DariaRodovnichenko"
-              class="contacts-link"
-              >GitHub</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a
-              href="https://www.linkedin.com/in/daria-rodovnichenko/"
-              class="contacts-link"
-              >LinkedIn</a
-            >
-          </p>
-        </section>
+        <div data-key="contacts" class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <!-- Dynamic contacts items will populate here -->
+        </div>
 
         <!-- Education -->
-        <section class="education-container">
-          <h3 class="sidebar-title">Education</h3>
-          <h4 class="education-university">Nomades Advanced_technologies</h4>
-          <h5 class="education-specialization">
-            Programme Développeur Angular
-          </h5>
-          <p class="education-period">Mars 2025 - Mai 2025 | Suisse</p>
-          <h4 class="education-university">Nomades Advanced_technologies</h4>
-          <h5 class="education-specialization">
-            Programme Développeur JavaScript
-          </h5>
-          <p class="education-period">Janvier 2025 - Mars 2025 | Suisse</p>
-          <h4 class="education-university">IT School GoIT</h4>
-          <h5 class="education-specialization">
-            Programme Développeur Fullstack
-          </h5>
-          <p class="education-period">Février 2023 - Avril 2024 | Ukraine</p>
+        <div data-key="education" class="education-container">
+          <h3 class="sidebar-title" id="education-title"></h3>
+          <!-- Dynamic education items will populate here -->
+        </div>
 
-          <h4 class="education-university">
-            Université Nationale de Commerce et d'Économie de Kyiv
-          </h4>
-          <h5 class="education-specialization">Master en Marketing</h5>
-          <p class="education-period">
-            Septembre 2010 - Septembre 2015 | Ukraine
-          </p>
-        </section>
-
-        <!-- Tech Skills -->
-        <section class="tech-skills-container">
+        <!-- Technical Skills -->
+        <div data-key="tech-skills" class="tech-skills-container">
           <h3 class="sidebar-title">Compétences Techniques</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">HTML5 / CSS3</li>
-            <li class="skills-list-item">JavaScript / TypeScript</li>
-            <li class="skills-list-item">React.js / Node.js</li>
-            <li class="skills-list-item">Angular</li>
-            <li class="skills-list-item">REST API</li>
-          </ul>
-        </section>
+          <!-- Dynamic tech skills items will populate here -->
+        </div>
 
         <!-- Soft Skills -->
-        <div class="soft-skills-container">
+        <div data-key="soft-skills" class="soft-skills-container">
           <h3 class="sidebar-title">Compétences Personnelles</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">
-              <span class="skills-list-text">Rigueur et souci du détail</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text"
-                >Capacité d'organisation et de travail en autonomie et en
-                équipe</span
-              >
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text"
-                >Excellentes aptitudes relationnelles et service client</span
-              >
-            </li>
-          </ul>
+          <!-- Dynamic soft skills items will populate here -->
         </div>
 
         <!-- Languages -->
-        <div class="languages-container">
+        <div data-key="languages" class="languages-container">
           <h3 class="sidebar-title">Langues</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">
-              <span class="skills-list-text">Français: B2</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Anglais: C1</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Ukrainien: Langue maternelle</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Russe</span>
-            </li>
-          </ul>
+          <!-- Dynamic languages items will populate here -->
         </div>
       </aside>
-    </div>
+    </section>
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
