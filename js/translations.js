@@ -6,7 +6,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Junior Front-End Developer',
         summary:
-          'Junior Front-End Developer with hands-on experience building responsive web applications and a solid grasp of modern technologies, tools, and development best practices. I am currently deepening my expertise through a JavaScript development program that includes personal projects. I am eager to bring a blend of technical and customer-focused skills to a dynamic team.',
+          'Junior Front-End Developer with hands-on experience building responsive web applications and a solid grasp of modern technologies, tools, and development best practices. I am currently deepening my expertise through a Python development program that includes personal projects. I am eager to bring a blend of technical and customer-focused skills to a dynamic team.',
 
         skills: 'Projects',
         list: [
@@ -125,6 +125,11 @@ const translations = {
     education: [
       {
         school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'Python Developer',
+        period: 'May 2025 - June 2025',
+      },
+      {
+        school: 'Nomades Advanced Technologies | Geneva',
         specialization: 'Angular Developer',
         period: 'March 2025 - May 2025',
       },
@@ -188,7 +193,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Développeur Front-End Junior',
         summary:
-          "Développeur Front-End Junior avec une expérience pratique dans la création d'applications web réactives et une solide maîtrise des technologies modernes, des outils et des bonnes pratiques de développement. Actuellement, j'approfondis mon expertise à travers    un programme de développement JavaScript incluant le projet personnel. Désireuse d'apporter un mélange de compétences techniques et orientées client au sein d'une équipe dynamique.",
+          "Développeur Front-End Junior avec une expérience pratique dans la création d'applications web réactives et une solide maîtrise des technologies modernes, des outils et des bonnes pratiques de développement. Actuellement, j'approfondis mon expertise à travers    un programme de développement Python incluant le projet personnel. Désireuse d'apporter un mélange de compétences techniques et orientées client au sein d'une équipe dynamique.",
 
         skills: 'Projets',
         list: [
@@ -306,6 +311,11 @@ const translations = {
     },
     educationTitle: 'Education',
     education: [
+      {
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Python',
+        period: 'Mai 2025 - Juin 2025',
+      },
       {
         school: 'Nomades Advanced Technologies | Genève',
         specialization: 'Développeur Angular',
