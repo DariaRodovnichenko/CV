@@ -161,5 +161,7 @@ function setLanguage(language) {
 
 // Initialize with default language (e.g., English)
 document.addEventListener('DOMContentLoaded', () => {
-  updateTranslations('en');
+  const params = new URLSearchParams(window.location.search);
+  const lang = params.get('lang') || 'en';
+  updateTranslations(lang);
 });
