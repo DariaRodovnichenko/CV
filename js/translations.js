@@ -125,28 +125,18 @@ const translations = {
     education: [
       {
         school: 'Nomades Advanced Technologies | Geneva',
-        specialization: 'Python Developer',
-        period: 'May 2025 - June 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Geneva',
-        specialization: 'Angular Developer',
-        period: 'March 2025 - May 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Geneva',
-        specialization: 'JS Software Developer',
-        period: 'January 2025 - March 2025',
+        specialization: 'Full-Stack Developer Diploma (JS, Angular, Python)',
+        period: 'January 2025 - June 2025',
       },
       {
         school: 'IT School GoIt | Ukraine',
-        specialization: 'Fullstack Developer',
+        specialization: 'Full-Stack Developer Training (Certificate obtained)',
         period: 'February 2023 - April 2024',
       },
       {
         university:
           'Kyiv National University of Trade and Economics | Kyiv, Ukraine',
-        specialization: 'Master of Marketing',
+        specialization: "Master's Degree in Marketing",
         period: 'September 2010 - September 2015',
       },
     ],
@@ -160,6 +150,7 @@ const translations = {
           'React',
           'TypeScript',
           'Angular',
+          'Python',
           'Firebase',
           'GIT',
           'Slack',
@@ -191,48 +182,48 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession: 'Développeur Front-End Junior',
+        profession: 'Développeuse Front-End Junior',
         summary:
-          "Développeur Front-End Junior avec une expérience pratique dans la création d'applications web réactives et une solide maîtrise des technologies modernes, des outils et des bonnes pratiques de développement. Actuellement, j'approfondis mon expertise à travers    un programme de développement Python incluant le projet personnel. Désireuse d'apporter un mélange de compétences techniques et orientées client au sein d'une équipe dynamique.",
+          "Développeuse Front-End Junior avec une expérience pratique dans la création d'applications web réactives et une solide maîtrise des technologies modernes, des outils et des bonnes pratiques de développement. Actuellement, j'approfondis mon expertise à travers un programme de développement Python incluant le projet personnel. Désireuse d'apporter un mélange de compétences techniques et orientées client au sein d'une équipe dynamique.",
 
         skills: 'Projets',
         list: [
           {
-            title: 'Développeur de projet complet',
+            title: 'Développeuse de projet complet',
             github: 'https://github.com/DariaRodovnichenko/ssd-ng_ts',
             preview: 'https://dariarodovnichenko.github.io/ssd-ng_ts/',
           },
           {
-            title: 'Développeur de projet complet',
+            title: 'Développeuse de projet complet',
             github: 'https://github.com/DariaRodovnichenko/crf-annex',
             preview: 'https://dariarodovnichenko.github.io/crf-annex/',
           },
           {
-            title: 'Développeur de projet complet',
+            title: 'Développeuse de projet complet',
             github:
               'https://github.com/DariaRodovnichenko/coffee-recipe-finder',
             preview:
               'https://dariarodovnichenko.github.io/coffee-recipe-finder/',
           },
           {
-            title: 'Backend Developer',
+            title: 'Développeuse backend',
             github: 'https://avk9.github.io/water_reacT/welcome',
             preview: 'https://avk9.github.io/water_reacT/welcome',
           },
           {
-            title: 'Développeur de projet complet',
+            title: 'Développeuse de projet complet',
             github:
               'https://dariarodovnichenko.github.io/goit-react-hw-05-movies/',
             preview:
               'https://dariarodovnichenko.github.io/goit-react-hw-05-movies/',
           },
           {
-            title: 'Développeur modal',
+            title: 'Développeuse modal',
             github: 'https://yurchykyur.github.io/project-stephen-js/',
             preview: 'https://yurchykyur.github.io/project-stephen-js/',
           },
           {
-            title: 'Scrum master / Développeur header',
+            title: 'Scrum master / Développeuse header',
             github: 'https://kilsor.github.io/team-project/',
             preview: 'https://kilsor.github.io/team-project/',
           },
@@ -313,28 +304,19 @@ const translations = {
     education: [
       {
         school: 'Nomades Advanced Technologies | Genève',
-        specialization: 'Développeur Python',
-        period: 'Mai 2025 - Juin 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Genève',
-        specialization: 'Développeur Angular',
-        period: 'Mars 2025 - Mai 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Genève',
-        specialization: 'Développeur Java Script',
-        period: 'Janvier 2025 - Mars 2025',
+        specialization:
+          'Diplômée Développeuse Full-Stack (JS, Angular, Python)',
+        period: 'Janvier 2025 - Juin 2025',
       },
       {
         school: 'IT School GoIt | Ukraine',
-        specialization: 'Programme Développeur Fullstack',
+        specialization: 'Formation Développeuse Full-Stack (certificat obtenu)',
         period: 'Février 2023 - Avril 2024',
       },
       {
         university:
           "Université Nationale de Commerce et d'Économie de Kyiv | Kyiv, Ukraine",
-        specialization: 'Master en Marketing',
+        specialization: 'Diplôme universitaire en Marketing',
         period: 'Septembre 2010 - Septembre 2015',
       },
     ],
@@ -348,6 +330,7 @@ const translations = {
           'React',
           'TypeScript',
           'Angular',
+          'Python',
           'Firebase',
           'GIT',
           'Slack',
